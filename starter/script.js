@@ -60,6 +60,7 @@ if (birthYear <= 2000) {
     century = 21;
 }
 
-console.log(century )
+console.log(century )    
+console.log(`I was born in the ${century}th century`)               
 
 
