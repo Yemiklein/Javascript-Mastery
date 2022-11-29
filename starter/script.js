@@ -33,12 +33,33 @@
 // let lastName = 'Raji'
 // console.log(firstName + ' ' + lastName);
 
-const firstName = 'Adeyemi'
-const job = 'Software Engineer'
-const birthYear = 1988;
-const currentYear = 2022
+// const firstName = 'Adeyemi'
+// const job = 'Software Engineer'
+// const birthYear = 1988;
+// const currentYear = 2022
 
-const yemi = `I'm ${firstName} a ${currentYear - birthYear} year old ${job}!`
-console.log(yemi);
-console.log(`thanking God for life i can't explain`)
-console.log(`javascript string \n\ with multiple \n\ lines sucks`)
+// const yemi = `I'm ${firstName} a ${currentYear - birthYear} year old ${job}!`
+// console.log(yemi);
+// console.log(`thanking God for life i can't explain`)
+// console.log(`javascript string \n\ with multiple \n\ lines sucks`)
+
+const age = 16;
+
+if (age >= 18) {
+  console.log('Farah can start driving license 🚗') 
+} else {
+    const yearLeft = 18 - age;
+    console.log(`Farah is still a minor. Wait another ${yearLeft} years and try again `)
+}
+
+const birthYear = 1988;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century )
+
+
