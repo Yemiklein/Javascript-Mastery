@@ -71,17 +71,73 @@
 
 
 
-const avgDolphin = (96 + 108 + 89) / 3;
-const avgKoalas = (97 + 112 + 101) / 3;
+// const avgDolphin = (96 + 108 + 89) / 3;
+// const avgKoalas = (97 + 112 + 101) / 3;
 
-console.log(avgDolphin, avgKoalas);
+// console.log(avgDolphin, avgKoalas);
 
-if (avgDolphin > avgKoalas && avgDolphin >= 100) {
-    console.log(`Dolphins win the trophy 🏆`);
-} else if (avgKoalas > avgDolphin && avgKoalas >= 100) {
-    console.log(`Koalas win the trophy 🏆`);
-} else if (avgDolphin === avgKoalas && avgDolphin >= 100 && avgKoalas >= 100) {
-    console.log(`Match ended in stalemate and no clear winner🏆`);
+// if (avgDolphin > avgKoalas && avgDolphin >= 100) {
+//     console.log(`Dolphins win the trophy 🏆`);
+// } else if (avgKoalas > avgDolphin && avgKoalas >= 100) {
+//     console.log(`Koalas win the trophy 🏆`);
+// } else if (avgDolphin === avgKoalas && avgDolphin >= 100 && avgKoalas >= 100) {
+//     console.log(`Match ended in stalemate and no clear winner🏆`);
+// } else {
+//     console.log(`No team wins the trophy 🏆`);
+// }
+
+
+//  const day = 'wednesday';
+
+//  switch (day) {
+//     case 'monday':
+//         console.log('Breakfast is yam and egg');
+//         console.log('Lunch is rice and beans with chicken');
+//         console.log('Dinner is rice and stew');
+//         break;
+//     case 'tuesday':
+//         console.log('Breakfast is bread and egg');
+//         console.log('Lunch is rice and beans');
+//         console.log('Poundoyam with egusi soup');
+//         break;
+//     case 'wednesday':
+//         console.log('Breakfast is jollof rice and turkey');
+//         console.log('Eba and oha soup');
+//         console.log('plantain and vegetable');
+//         break;
+//     case 'thursday':
+//         console.log('Breakfast is beans and plantain');
+//         console.log('Lunch is rice and beans');
+//         console.log('Dinner is semovita and efo riro');
+//         break;
+//     case 'friday':
+//         console.log('Breakfast is bread and egg');
+//         console.log('Lunch is amala and ewedu');
+//         console.log('Dinner is rice and stew');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Breakfast is pap and akara');
+//         console.log('Lunch is rice and beans');
+//         console.log('Dinner is rice and stew');
+//         break;
+//     default:
+//         console.log('Not a valid day');
+//  }
+
+
+const day = 'tuesday'
+
+if (day === 'monday') {
+    console.log('Prepare semo and egusi for dinner')
+} else if (day === 'tuesday') {
+    console.log('Prepare rice and beans for dinner')
+} else if (day === 'wednesday' || day === 'thursday') {
+    console.log('Prepare amala and ewedu for dinner')
+} else if (day === 'friday') {
+    console.log('Prepare rice and stew for dinner')
+} else if (day === 'saturday' || day === 'sunday') {
+    console.log('Prepare rice and beans for dinner')
 } else {
-    console.log(`No team wins the trophy 🏆`);
+    console.log('Not a valid day')
 }
