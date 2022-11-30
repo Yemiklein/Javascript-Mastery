@@ -43,24 +43,45 @@
 // console.log(`thanking God for life i can't explain`)
 // console.log(`javascript string \n\ with multiple \n\ lines sucks`)
 
-const age = 16;
+// const age = 16;
 
-if (age >= 18) {
-  console.log('Farah can start driving license 🚗') 
+// if (age >= 18) {
+//   console.log('Farah can start driving license 🚗') 
+// } else {
+//     const yearLeft = 18 - age;
+//     console.log(`Farah is still a minor. Wait another ${yearLeft} years and try again `)
+// }
+
+// const birthYear = 1988;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
+
+// console.log(century )    
+// console.log(`I was born in the ${century}th century`)               
+
+// const hasDriversLicense = true;
+// const hasGoodVision = false;
+
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+
+
+
+const avgDolphin = (96 + 108 + 89) / 3;
+const avgKoalas = (97 + 112 + 101) / 3;
+
+console.log(avgDolphin, avgKoalas);
+
+if (avgDolphin > avgKoalas && avgDolphin >= 100) {
+    console.log(`Dolphins win the trophy 🏆`);
+} else if (avgKoalas > avgDolphin && avgKoalas >= 100) {
+    console.log(`Koalas win the trophy 🏆`);
+} else if (avgDolphin === avgKoalas && avgDolphin >= 100 && avgKoalas >= 100) {
+    console.log(`Match ended in stalemate and no clear winner🏆`);
 } else {
-    const yearLeft = 18 - age;
-    console.log(`Farah is still a minor. Wait another ${yearLeft} years and try again `)
+    console.log(`No team wins the trophy 🏆`);
 }
-
-const birthYear = 1988;
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
-
-console.log(century )    
-console.log(`I was born in the ${century}th century`)               
-
-
