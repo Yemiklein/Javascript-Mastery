@@ -126,18 +126,26 @@
 //  }
 
 
-const day = 'tuesday'
+// const day = 'tuesday'
 
-if (day === 'monday') {
-    console.log('Prepare semo and egusi for dinner')
-} else if (day === 'tuesday') {
-    console.log('Prepare rice and beans for dinner')
-} else if (day === 'wednesday' || day === 'thursday') {
-    console.log('Prepare amala and ewedu for dinner')
-} else if (day === 'friday') {
-    console.log('Prepare rice and stew for dinner')
-} else if (day === 'saturday' || day === 'sunday') {
-    console.log('Prepare rice and beans for dinner')
-} else {
-    console.log('Not a valid day')
-}
+// if (day === 'monday') {
+//     console.log('Prepare semo and egusi for dinner')
+// } else if (day === 'tuesday') {
+//     console.log('Prepare rice and beans for dinner')
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('Prepare amala and ewedu for dinner')
+// } else if (day === 'friday') {
+//     console.log('Prepare rice and stew for dinner')
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('Prepare rice and beans for dinner')
+// } else {
+//     console.log('Not a valid day')
+// }
+
+
+const age = 15;
+
+// age >= 18 ? console.log('I like to drink wine 🍷') : console.log('I like to drink water 🥛');
+
+const drinkAge = age >= 18 ? 'wine 🍷' : 'water 🥛';
+console.log(drinkAge);
